@@ -6,6 +6,7 @@ name: Publish Docker image
 # documentation.
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
     # Publish semver tags as releases.
